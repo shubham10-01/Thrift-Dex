@@ -13,13 +13,12 @@ const Hero = () => {
             <div>
                 <div className="hero-hand-icon">
                     <p>New</p>
-                    {/* <img src={hand_icon} alt='hand icon'/> */}
                 </div>
                 <p>Collections</p>
                 <p>For everyone</p>
             </div>
             <div className="hero-latest-btn">
-                <Link to="/mens" style={{textDecoration: 'none'}}><div style={{textDecoration:'none', color:'black'} }>Latest Collection</div></Link>
+                <Link to="/mens" style={{textDecoration: 'underline'}}><div style={{textDecoration:'none', color:'black'} }>Latest Collection</div></Link>
                 <img src={arrow} alt='arrow' />
             </div>
         </div>
